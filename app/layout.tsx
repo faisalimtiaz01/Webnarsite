@@ -1,8 +1,15 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Sora } from 'next/font/google'
+import Navbar from '@/components/Navbar'
 import './globals.css'
+import Footer from '@/components/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const sora = Sora({
+  weight: ['800', '700', '600', '500','400', '300'],
+  subsets: ['latin'],
+  display: 'swap',
+  preload: true
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +23,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={sora.className}>
+      <Navbar />
+        {children}
+        <Footer />
+        </body>
     </html>
   )
 }
