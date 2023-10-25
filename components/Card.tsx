@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Card = () => {
@@ -24,14 +25,14 @@ const Card = () => {
     cardDetials.map((items, index)=>(
         <div className="flex gap-5">
             <div>
-            <img src={items.url} alt="" width="50px" height="50px" /> 
+            <Image src={items.url} alt="" width={50} height={50} /> 
             </div>
             <div className="">
              <div className="inline-flex items-center gap-4">
                 <h1 className="text-[16px] leading-[28px] font-bold text-[#FFF]">
                 {items.title}
               </h1>
-              <img src="/images/Line 229.png" alt="" width="170px" height="2px"/>
+              <Image  src="/images/Line 229.png" alt="" width={20} height={20}/>
              </div>
               <p className="text-[14px] leading-[24px] text-[#fff] opacity-[0.8] ">
                 {items.description}

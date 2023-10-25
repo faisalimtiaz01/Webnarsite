@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Opnions = () => {
@@ -10,7 +11,7 @@ const Opnions = () => {
             </div>
           <div className="flex md:flex-row flex-col px-5 justify-between items-center">
             <div className="w-full md:w-[40%]">
-              <img src="/images/Images (2).png" alt="" />
+              <Image src="/images/Images (2).png" alt=""  width={400} height={400}/>
             </div>
             <div className=" w-full md:w-[40%] mt-10 ">
               <p className="text-[18px] leading-[18px] [text-wrap:balnace] text-[#12141D] font-normal ">
@@ -24,9 +25,9 @@ const Opnions = () => {
               <h4 className=" mt-5 md:mt-20 text-[16px] leading-[24px] font-bold text-[#12141D]">Jenny Wilson</h4>
               <p className="text-[14px] leading-[20px] opacity-[0.7] text-[#12141D]">Senior Marketing Manager</p>
               <div className="flex gap-5 mt-5 md:mt-20">
-                <img src="/images/shape.png" alt="" />
-                <img src="/images/shape2.png" alt="" />
-                <img src="/images/shape2.png" alt="" />
+                <Image src="/images/shape.png" alt="" width={30}   height={30}/>
+                <Image src="/images/shape2.png" alt="" width={30}  height={30}/>
+                <Image src="/images/shape2.png" alt="" width={30}  height={30}/>
               </div>
             </div>
           </div>
