@@ -40,8 +40,8 @@ const VideoSection = () => {
 
       <section className="md:max-w-[80rem] mx-auto  mt-20">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
-          {cardData.map((card) => (
-            <div className="flex flex-col gap-5 px-10">
+          {cardData.map((card,index) => (
+            <div className="flex flex-col gap-5 px-10" key={index}>
               <Image src={card.Url} alt="Event Image"  width={30} height={30} className="w-full" />
               <p className="text-[20px] font-bold leading-[28px] text-[#12141D]">{card.content}</p>
             </div>
