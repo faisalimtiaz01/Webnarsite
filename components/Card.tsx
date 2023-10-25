@@ -22,9 +22,9 @@ const Card = () => {
    
 <div className=" flex flex-col px-5 md:flex md:flex-row justify-between mt-20 gap-10">
    {
-    cardDetials.map((items)=>(
-        <div className="flex gap-5">
-            <div>
+    cardDetials.map((items,index)=>(
+        <div className="flex gap-5" key={index}>
+            <div >
             <Image src={items.url} alt="" width={50} height={50} /> 
             </div>
             <div className="">
