@@ -7,14 +7,14 @@ const Opnions = () => {
       <section>
         <div className="md:max-w-[80rem] mx-auto py-10">
             <div>
-                <h1 className="text-[52px] leading-[60px] text-[#12141D] font-bold text-center py-10 ">See the opinions of <br /> our software users </h1>
+                <h1 className=" text-[24px] md:text-[52px] leading-[30px] md:leading-[60px] text-[#12141D] font-bold text-center py-10 ">See the opinions of <br className=" hidden md:block" /> our software users </h1>
             </div>
           <div className="flex md:flex-row flex-col px-5 justify-between items-center">
             <div className="w-full md:w-[40%]">
               <Image src="/images/Images (2).png" alt=""  width={400} height={400}/>
             </div>
             <div className=" w-full md:w-[40%] mt-10 ">
-              <p className="text-[18px] leading-[18px] [text-wrap:balnace] text-[#12141D] font-normal ">
+              <p className="text-[18px] leading-[24px] [text-wrap:balnace] text-[#12141D] font-normal ">
               &quot;Best user-friendly Webinar platform with intuitive UI/UX which
                 is secure and reliable. “I think this Webinar was so exactly
                 that, It was at the center of what we were doing, but it was

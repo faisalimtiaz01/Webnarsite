@@ -4,11 +4,11 @@ import React from 'react'
 const Testimonal = () => {
     
   return (
-    <section className=' py-36  flex flex-col justify-center'>
+    <section className=' py-0 md:py-36  flex flex-col justify-center'>
         <div className='md:max-w-[80rem] mx-auto'>
             <div className='grid grid-cols-1 md:grid-cols-2 md:mt-32 mt-2 p-10 gap-10 md:gap-40 '>
-                <h1 className='md:text-[52px] text-[45px] text-[#12141D] leading-[60px] font-bold'>It helps to expand your audience and grow your business</h1>
-                <p className='text-[18px] leading-[30px] font-normal opacity-[0.8]'>A webinar provides an interesting and informative platform for new & existing customers that will deliver really valuable content to your target audience. It&apos;s a great way to build up relationships and create awareness of your brand.</p>
+                <h1 className='md:text-[52px] text-[24px] text-[#12141D] leading-[30px] md:leading-[60px] font-bold'>It helps to expand your audience and grow your business</h1>
+                <p className='text-[15px] md:text-[18px] leading-[20px] md:leading-[30px] font-normal opacity-[0.8]'>A webinar provides an interesting and informative platform for new & existing customers that will deliver really valuable content to your target audience. It&apos;s a great way to build up relationships and create awareness of your brand.</p>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-5 md:mt-32 mt-0 md:gap-4 gap-20 p-10 items-center justify-evenly'>
 

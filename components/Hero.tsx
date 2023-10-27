@@ -5,12 +5,12 @@ const Hero = () => {
   return (
     <section className="bg-[#F7EA68] h-[470px] md:h-[1150px] ">
       <div className=" flex flex-col items-center justify-center md:gap-10 gap-5 md:max-w-[80rem] w-full mx-auto ">
-        <h1 className="md:text-[75px] text-[40px] md:leading-[88px] leading-[50px] font-bold text-center md:mt-28  mt-10">
-          Find the best platform for <br /> webinars & meetings
+        <h1 className="md:text-[75px] text-[24px] md:leading-[88px] leading-[30px] font-bold text-center md:mt-28  mt-10">
+          Find the best platform for <br className="md:block hidden"  /> webinars & meetings
         </h1>
         <p className=" md:text-[20px] text-[12px] md:leading-[32px]  font-normal text-center opacity-[0.8]">
           We have meetings, the first video engagement platform to manage
-          webinars, more <br  /> customizable registration pages, email delivery
+          webinars, more <br className="md:block hidden"  /> customizable registration pages, email delivery
           tracking, built-in social sharing.
         </p>
 
@@ -38,12 +38,12 @@ const Hero = () => {
           alt="lgo img"
           width={100}
           height={100}
-          className="absolute md:left-28 left-0 md:top-80 top-40 w-[8%] "
+          className="absolute md:left-28 left-0 md:top-80 top-36 w-[8%] "
         />
 
       </div>
       
-      <div className="relative w-full mt-10 md:mt-32">
+      <div className="relative  w-full mt-10 md:mt-32">
           <Image
             src="/images/Scribble.svg"
             alt="lgo img"
@@ -64,7 +64,7 @@ const Hero = () => {
             alt="lgo img"
             width={1200}
             height={400}
-            className="mt-14 mx-auto w-3/4 h-auto"
+            className="mt-14 mx-auto w-3/4 h-auto z-0"
           />
         
         </div>
